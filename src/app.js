@@ -1,6 +1,6 @@
 // Place your DOM creation code here
 
-// const section = document.createElement('section');
+// const section = document.createElement('section'); //this isn't right
 // section.appendChild(header);
 // section.appendChild(p1);
 // section.appendChild(p2);
@@ -15,7 +15,7 @@ const p2 = document.createElement('p');
 p2.textContent = 'To make it fun, and maybe a bit tricky, I\'ve added several types of elements. Some elements are pretty simple like these \<p\> tags. Others are more going to require extra attributes or mixing text nodes with element nodes.'; 
 
 
-// const aside = document.createElement('aside');
+// const aside = document.createElement('aside'); //neither is this
 // aside.appendChild(mimg);
 // aside.appendChild(mquote);
 // aside.appendChild(mtalk);
@@ -30,6 +30,7 @@ const mtalk = document.createElement('aside');
 mtalk.setAttribute('src', 'assets/Super Mario Bros. medley.mp3');
 
 
+//I'm confused about what to do with section and aside down here...
 const div = document.createElement('div');
 div.appendChild(header);
 div.appendChild(p1);
